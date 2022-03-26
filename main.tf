@@ -7,3 +7,8 @@ terraform {
     }
   }
 }
+
+provider "heroku" {
+  api_key = var.heroku_api_key
+  email   = var.heroku_email
+}
