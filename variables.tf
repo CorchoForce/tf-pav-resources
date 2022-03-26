@@ -18,6 +18,14 @@ variable "back_repository" {
   default     = "https://github.com/CorchoForce/pav-back"
 }
 
+variable "heroku_api_key" {
+  description = "The Heroku API key"
+}
+
+variable "heroku_email" {
+  description = "The Heroku email"
+}
+
 variable "app_key" {
   description = "The app key of the application"
 }
