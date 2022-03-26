@@ -36,4 +36,4 @@ override.tf.json
 terraform.rc
 
 # Ignore environment variables
-.env.*
+.env*
