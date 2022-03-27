@@ -10,12 +10,12 @@ variable "back_name" {
 
 variable "front_repository" {
   description = "The repository of the frontend application"
-  default     = "https://github.com/CorchoForce/pav-front"
+  default     = "https://github.com/CorchoForce/pav-front/archive/refs/tags/v2.0.0.tar.gz"
 }
 
 variable "back_repository" {
   description = "The repository of the backend application"
-  default     = "https://github.com/CorchoForce/pav-back"
+  default     = "https://github.com/CorchoForce/pav-back/archive/refs/tags/v2.0.0.tar.gz"
 }
 
 variable "heroku_api_key" {
