@@ -24,7 +24,7 @@ resource "heroku_app" "back-dev" {
 
 resource "heroku_build" "back-dev" {
   app_id     = heroku_app.back-dev.id
-  buildpacks = ["heroku/nodejs"]
+  buildpacks = ["https://github.com/heroku/heroku-buildpack-nodejs"]
   source {
     url     = var.back_repository
     version = "main"
