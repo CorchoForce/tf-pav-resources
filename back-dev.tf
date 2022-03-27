@@ -9,7 +9,7 @@ resource "heroku_app" "back-dev" {
     "MONGO_HOSTNAME" = "gremiodb.aiybv.mongodb.net"
     "MONGO_PORT"     = "27017"
     "NODE_ENV"       = "develop"
-    "PRODUCTION"     = false
+    "PRODUCTION"     = "FALSE"
     "SERVER_PORT"    = "8080"
   }
 
